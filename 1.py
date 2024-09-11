@@ -35,7 +35,7 @@ def get_weather_data():
             location = data['humidity']['data'][i]['place']
             print(f"Location: {location}")
             print(f"Humidity: {humidity}%")
-        
+        print(1)
     else:
         print("Failed to retrieve data")
 
